@@ -1,0 +1,86 @@
+.menu-item {
+    transition: all 0.3s ease;
+}
+.hidden {
+    display: none;
+}
+
+body{
+    background-color: #f9f9ff;
+}
+.card{
+    background-color: #fff;
+    height: 150px;
+    border: none;
+}
+
+.card-body-drinks{
+    height: 57px;
+}
+
+.card-title{
+    color: #C7253E;
+}
+
+.btn{
+    background-color: #fff !important;
+    color: #000;
+}
+
+
+
+.btn:hover {
+    background-color: #C7253E !important;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: none !important;
+    box-shadow: none;
+    background-color: #C7253E !important;
+    color: #fff;
+}
+
+
+ header {
+    width: 100vw;
+    height: 30vh;
+    background-position: bottom;
+    background-size: cover;
+    background-image:url(img/sunweb_logo.jpeg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 50% 48%;
+}
+
+
+@media (max-width:500px) {
+    footer {
+        padding-top: 100px;
+    }
+}
+
+footer {
+    background-color: #C7253E;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.drinks-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drinks-title span {
+    margin-left: auto;
+}
+
+.title-main{
+    color: #C7253E;
+}
+
