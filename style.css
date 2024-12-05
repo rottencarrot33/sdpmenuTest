@@ -63,6 +63,11 @@ body{
     }
 }
 
+@media (min-width: 501px) {
+    header {
+        display: none;
+    }
+}
 footer {
     background-color: #C7253E;
     color: #fff;
